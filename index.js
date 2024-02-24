@@ -31,3 +31,6 @@ const http = require("http");
 
 ///////////////////////////////////////////////
 // SERVER
+http.createServer((req, res) => {
+  res.end("Hello from the server!");
+});
