@@ -33,7 +33,7 @@ const url = require("url");
 ///////////////////////////////////////////////
 // SERVER
 const tempOverview = fs.readFileSync(
-  `${__dirname}/templates/template-ovderview.html`,
+  `${__dirname}/templates/template-overview.html`,
   "utf-8"
 );
 const tempProduct = fs.readFileSync(
